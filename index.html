@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>고려대 캠퍼스 지도</title>
+
+  <link rel="stylesheet" href="style.css"/>
+
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css"/>
+</head>
+
+<body>
+
+<header>
+  <h1>🏫 고려대학교 캠퍼스 지도</h1>
+  <input id="search" placeholder="건물 검색 (예: 중앙도서관)" />
+</header>
+
+<div id="map"></div>
+
+<div id="panel">
+  <h2>건물 정보</h2>
+  <div id="info">건물을 클릭하세요</div>
+</div>
+
+<script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+<script src="script.js"></script>
+
+</body>
+</html>
