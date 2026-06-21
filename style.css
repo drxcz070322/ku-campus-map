@@ -1,0 +1,40 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial;
+}
+
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+header {
+  background: #b30000;
+  color: white;
+  padding: 12px;
+}
+
+header h1 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+#search {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 6px;
+}
+
+#map {
+  flex: 1;
+}
+
+#panel {
+  padding: 12px;
+  border-top: 1px solid #ddd;
+  background: white;
+}
